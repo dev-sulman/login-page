@@ -1,0 +1,194 @@
+#boxes{
+    width: 900px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;flex-direction: row-reverse;
+    
+}.all{
+    background-color:#f0f4f9;
+    margin: 50px 100px 200px 50px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.form{
+    background-color: white;
+    width:900px;
+    height: 350px;
+    padding: 50px 15px 50px 10px;
+    border: 2px solid rgba(192, 192, 192, 0);
+    border-radius: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    background-image: url(glogo1.png);
+    background-size: cover;
+}
+#sign-in{
+    font-family: Arial;
+    font-weight:500;
+    font-size: 32px;
+}
+.form-logo-signin-short-heading{
+    position: relative;
+    top: -10px;
+    left: 20px;
+    width: 350px;
+    height: 150px;
+    /* border: 2px solid black; */
+
+}
+.secound-part{
+    position: relative;
+    top: 38px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 550px;
+    height: 390px;
+}
+.email{
+    width:200px;
+    height: 30px; 
+}
+.email-or-pass{
+    position: relative;
+    left: 90px;
+    border: 1px  solid silver;
+    width: 430px;
+    height: 64px;
+    padding: 0px 0px 0px 10px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+.email-or-pass:hover{
+    
+    text-align: start;
+    justify-content: start;
+    transition: all 0.2s ease-in 0.2s;
+    border:1px solid silver;
+    
+}
+
+#use-your{
+    font-family: Arial;
+}
+#forgot-pass{
+    position: relative;
+    left: 90px;
+    top: 15px;
+    padding: 2px 2px 2px 2px ;
+    text-decoration: none;
+    color: #0b57d0;
+    font-family: Arial;
+    font-size: 14px;
+
+}
+#forgot-pass:hover{
+    background-color: #0b57d019;
+    border: transparent;
+    border-radius: 5px;
+
+}
+
+#not-your-computer{
+    color: #444746;
+    position: relative;
+    left: 90px;
+    font-family: Arial;
+    top: 40px;
+}
+#learn-more{
+    color: #0b57d0;
+    position: relative;
+    top: 5px;
+    left: 90px;
+    font-family: Arial;
+    text-decoration: none;
+}
+#learn-more:hover{
+    text-decoration: underline solid blue;
+}
+#Create-account{
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    left: 280px;
+    top: 60px;
+    text-decoration: none;
+    color: #0b57d0;
+    font-family: Arial;
+}
+#Create-account:hover{
+    border-radius: 30px;
+    background-color: #0b57d005;
+}
+#next-button{
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    width: 78px;
+    height: 42px;
+    position: relative;
+    left: 450px;
+    top: 60px;
+    border: transparent;
+    background-color: #0b57d0;
+    border-radius: 40px;
+    color: white;
+    font-size: larger;
+}
+#next-button:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.183);
+}
+.all-button{
+    position: relative;
+    left: 300px;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 259px;
+    height: 70px;
+    
+    /* border: 2px solid black; */
+}
+#button-one{
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
+#button-one:hover{
+   background-color: rgba(0, 0, 0, 0.025);
+   border-radius: 10px;
+}
+.button-two{
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    position: relative;
+    right: 650px;
+    /* padding: 10px 10px 10px 10px; */
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
+.button-two:hover{
+    background-color: rgba(0, 0, 0, 0.025);
+    border-radius: 10px;
+    text-decoration: underline solid blue;
+}
+
